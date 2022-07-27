@@ -1,0 +1,17 @@
+body {
+    background: black;
+    color: rgb(220, 220, 220);
+}
+
+.main-container {
+    margin: 5% 10%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
