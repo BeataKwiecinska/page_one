@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Roboto&display=swap');
 
 body {
     background: black;
@@ -7,7 +7,9 @@ body {
 }
 
 .main-container {
-    margin: 5% 10%;
+    background-image: url(./assets/images/zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .header {
@@ -21,10 +23,15 @@ body {
 .front-page {
     width: 300px;
     margin: 35vh 0 0 0;
+    height: 60vh;
 }
 
+.header-logo {
+    padding: 0 0 0 30px;
+}
 .header-menu {
     width: 280px;
+    padding: 0 30px 0 0;
 }
 
 .main-menu {
@@ -51,4 +58,33 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
     margin: -20px 0 0 0;
+}
+
+.section-two {
+    height: 2000px;
+    background: white;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.titles {
+    margin: 0 0 0 30px;
+}
+
+.section-two {
+    padding: 30px;
+    color: rgb(10, 10, 10);
+    font-weight: 300;
+}
+
+.photo-wrapper {
+
+}
+
+.photo-wrapper img {
+    width: 300px;
+    height: auto;
 }
