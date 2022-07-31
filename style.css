@@ -61,13 +61,15 @@ body {
 }
 
 .section-two {
-    height: 2000px;
+    height: auto;
     background: white;
 }
 
 .content-wrapper {
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .titles {
@@ -77,14 +79,34 @@ body {
 .section-two {
     padding: 30px;
     color: rgb(10, 10, 10);
-    font-weight: 300;
 }
 
 .photo-wrapper {
 
 }
 
-.photo-wrapper img {
-    width: 300px;
+.photo-wrapper #zebra-family {
+    width: 450px;
     height: auto;
+    position: relative;
+    top: -50px;
+}
+
+.text-wrapper {
+    width: 400px;
+    font-weight: 300;
+
+}
+
+.paragraph-title {
+    margin: 50px 0 0 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.photo-wrapper #zebra-portrait {
+    width: 300;
+    margin: 60px;
 }
