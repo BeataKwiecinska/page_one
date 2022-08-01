@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: black;
     color: rgb(220, 220, 220);
     font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .main-container {
@@ -60,11 +69,6 @@ body {
     margin: -20px 0 0 0;
 }
 
-.section-two {
-    height: auto;
-    background: white;
-}
-
 .content-wrapper {
     display: flex;
     width: 100%;
@@ -76,13 +80,14 @@ body {
     margin: 0 0 0 30px;
 }
 
-.section-two {
-    padding: 30px;
-    color: rgb(10, 10, 10);
+.section {
+    height: 100vh !important;
 }
 
-.photo-wrapper {
-
+.section-two, .section-four {
+    padding: 30px;
+    color: rgb(10, 10, 10);
+    background: white;
 }
 
 .photo-wrapper #zebra-family {
@@ -92,10 +97,16 @@ body {
     top: -50px;
 }
 
+#zebra-family-two {
+    width: 400px;
+    height: auto;
+    
+}
+
 .text-wrapper {
     width: 400px;
     font-weight: 300;
-
+    padding: 30px;
 }
 
 .paragraph-title {
